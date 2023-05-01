@@ -15,10 +15,3 @@ parser.add_argument('-r', help='some description')
 parser.add_argument('-s', '--silent', action='store_true', default=False, help='some description')
 # parse arguments/options to an object args
 args = parser.parse_args()
-
-# call the arguments/options
-print(args.a)
-print(args.b)
-print(args.r)
-print(args.s)
-print(args.silent)
